@@ -16,7 +16,7 @@ function getRandomColor() {
     }
     return color;
 }
-const getNewID = () => `idis${Math.random().toString(36).substring(7)}`
+const getNewID = () => `idis${Math.random().toString(36).substring(7)}`;
 
 
 setInterval(()=>{
